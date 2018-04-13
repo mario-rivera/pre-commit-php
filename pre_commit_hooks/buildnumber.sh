@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-update-build-number.sh
+./update-build-number.sh
