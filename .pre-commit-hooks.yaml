@@ -68,3 +68,10 @@
   entry: \s+exit[;(]|;exit[;(]|^exit[;(]|\s+die[;(]|;die[;(]|^die[;(]
   language: pcre
   files: \.php$
+
+- id: buildnumbers
+  name: PHP Syntax Check (Comprehensive)
+  description: Run laravel buildnumber increase
+  entry: pre_commit_hooks/buildnumber.sh
+  language: script
+
