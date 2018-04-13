@@ -70,7 +70,7 @@
   files: \.php$
 
 - id: buildnumbers
-  name: PHP Syntax Check (Comprehensive)
+  name: Update buildnumber
   description: Run laravel buildnumber increase
   entry: pre_commit_hooks/buildnumber.sh
   language: script
