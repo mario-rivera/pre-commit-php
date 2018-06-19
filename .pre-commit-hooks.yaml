@@ -75,3 +75,9 @@
   entry: pre_commit_hooks/buildnumber.sh
   language: script
 
+- id: codeception
+  name: Codeception Tests
+  description: Run php codecept
+  entry: pre_commit_hooks/php-codecept.sh
+  laguage: script
+  files: \.php$
