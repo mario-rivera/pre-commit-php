@@ -79,5 +79,5 @@
   name: Codeception Tests
   description: Run php codecept
   entry: pre_commit_hooks/php-codecept.sh
-  laguage: script
+  language: script
   files: \.php$
