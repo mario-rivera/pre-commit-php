@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Bash PHP Codeception Unit Task Runner
+# Bash PHP Codeception Task Runner
 #
 # Exit 0 if no errors found
 # Exit 1 if errors were found
