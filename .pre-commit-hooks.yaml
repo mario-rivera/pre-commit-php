@@ -48,6 +48,13 @@
   language: script
   files: \.php$
 
+- id: php-md
+  name: PHP Mess Detector
+  description: Run php mess detector against all staged files.
+  entry: pre_commit_hooks/php-md.sh
+  language: script
+  files: \.php$
+
 - id: php-no-dumps
   name: PHP Ensure no dumps
   descriptions: Checks for a call to symfony's dump
